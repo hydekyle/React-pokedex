@@ -1,0 +1,32 @@
+:root{
+    --bg-color: red;
+}
+
+.table {
+    display: flex;
+    border: 4px solid var(--bg-color);
+    background: #84B000;
+}
+
+.left-table {
+    display: flex;
+    flex-flow: column;
+}
+
+.left-table img {
+    position: fixed;
+    left: 4vh;
+    height: 12vh;
+    
+}
+
+.right-table {
+    display: flex;
+    flex-flow: column;
+    background: #526E00;
+    justify-content: center;
+}
+
+.right-table Button {
+    padding: 20px;
+}
